@@ -1,10 +1,19 @@
 {
-  "name": "welcomebot",
+  "name": "nodemon",
   "version": "1.0.0",
   "description": "WelcomeBot",
   "main": "index.js",
   "scripts": {
-    "start": "npm install && node index.js"
+    "start": "npm install && nodemon index.js"
+  },
+  "homepage": "http://nodemon.io",
+  "...": "... other standard package.json values",
+  "nodemonConfig": {
+    "ignore": [
+      "test/*",
+      "docs/*"
+    ],
+    "delay": "2500"
   },
   "author": "7alex",
   "license": "ISC",
