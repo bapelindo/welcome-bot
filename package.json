@@ -4,7 +4,8 @@
   "description": "WelcomeBot",
   "main": "index.js",
   "scripts": {
-    "start": "npm install && node index.js"
+    "postinstall": "npm install",
+    "start": "node index.js"
   },
   "author": "7alex",
   "license": "ISC",
