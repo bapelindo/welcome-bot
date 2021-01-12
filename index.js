@@ -90,7 +90,7 @@ client.on(`guildMemberAdd`, async member => {
 	
 	.setColor(`RANDOM`)
 	.setAuthor(`${member.guild.name}`, `${member.guild.iconURL({ format : `gif`, dynamic : `true`})}`)
-	.setTitle(`Welcome ${member.user.username} To ${member.guild.name} :tada:`)
+	.setTitle(`config.title`)
 	.setDescription(`config.desc`)
 	.setThumbnail(`${member.user.displayAvatarURL({ format: `png`, dynamic : `true`})}`)
 	.setTimestamp()
