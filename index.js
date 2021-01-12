@@ -16,9 +16,9 @@ client.guilds.cache.each((guild) => {
 	const aln = [ `${guild.memberCount} Member`,`To ${guild.name} Server`, `Dunia Tipu Tipu`, `Kamu`]
 
 	setInterval(() => {
-      const io = Math.floor(Math.random() * (al.length));
-			const ind = Math.floor(Math.random() * (aln.length));
-      client.user.setActivity(`${aln[ind]}`, {type: `${al[io]}`});
+  	const io = Math.floor(Math.random() * (al.length));
+		const ind = Math.floor(Math.random() * (aln.length));
+  	client.user.setActivity(`${aln[ind]}`, {type: `${al[io]}`});
 	 	}, 10000);
 	});
 });
@@ -102,7 +102,7 @@ client.on(`guildMemberAdd`, async member => {
 
 client.on(`message`, message => {
   if (message.content === `!join`) {
-    client.emit(`guildMemberAdd`, message.member); } });
+  	client.emit(`guildMemberAdd`, message.member); } });
 
 client.login(config.token);
 
