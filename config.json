@@ -3,6 +3,6 @@
     "prefix": "!",
     "welch": "786978442016194616",
     "welchs" : "786978442302324799",
-    "title" : "",
+    "title" : "Welcome ${member.user.username} To ${member.guild.name} :tada:",
     "desc" : "Jangan lupa baca <#786978442016194617>.\nBiar lebih akrab kenalan dulu di <#786983049929424977>.\nSelamat bersenang senang <@${member.user.id}>."
 }
